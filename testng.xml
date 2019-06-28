@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite">
+
+    <test name="Tests">
+        <classes>
+            <class name="Tests.ContactTest"></class>
+            <class name="Tests.expedia_test"></class>
+            <class name="Tests.AutomationPractice_test"></class>
+            <class name="Tests.CarsTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Select Practice Package">
+        <classes>
+            <class name="Select_Practice.SelectClass_Practice">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestNG_Intro Package">
+        <classes>
+            <class name="TestNG_Intro.Alerts_Practice"></class>
+            <class name="TestNG_Intro.DragAndDropHomework"></class>
+        </classes>
+    </test>
+</suite>

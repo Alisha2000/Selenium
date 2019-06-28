@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Depends Practice">
+
+
+    <test name="Test Depends Method">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="OS" value="Windows"></parameter>
+        <classes>
+            <class name="TestNG_Intro.Paralel_Testing">
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Test Depends Method1">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TestNG_Intro.Paralel_Testing">
+            </class>
+        </classes>
+    </test>
+</suite>
